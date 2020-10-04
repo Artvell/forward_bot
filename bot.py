@@ -9,7 +9,7 @@ token = os.environ['TOKEN']
 group_id = os.environ['GROUP_ID']
 
 
-WEBHOOK_HOST = 'https://deploy-heroku-bot.herokuapp.com'  # name your app
+WEBHOOK_HOST = 'https://deploy-heroku-bot.tashepsilontestbot.com'  # name your app
 WEBHOOK_PATH = '/webhook/'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
